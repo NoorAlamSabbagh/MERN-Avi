@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.banner {
+    margin-bottom: 6px;
+    position: relative;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 auto 6px auto;
+}
+.banner1{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 100px;
+    width: 50%;
+}
+
+.para {
+    display: inline-block;
+    background-color: blue;
+    height: 100px;
+    width: 150%;
+    border-radius: 1px solid green;
+    margin: 100px 10px 10px 5px;
+    padding: 10px 5px 10px 5px;
+}
+
+.banner p {
+    font-size: 24px;
+}
+
+.banner .btn {
+    background-color: pink;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    border: 6px;
+    right: 6px;
+
+}
+
+.banner1{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 50vh;
+    width: 50px;
+    border: 1px solid red;
+    overflow: auto;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid green;
+}
+
+.banner{
+    display: block;
+    height: 75vh;
+}
+
+.banner2{
+    height: 75vh;
+    /* flex-grow: 1; */
+}
+
+.banner3{
+    height: 25vh;
+    
+}
+
+.banner4{
+    height: 75vh;
+    flex-grow: 1;
+}
+
+@media  (320px <= width <= 480px){
+body {
+   background-color: aqua;
+   }
+   .banner1 {
+    display: none;
+   }
+}
+
+@media  (481px <= width <= 768px){
+body {
+   background-color: bisque;
+   }
+   .banner1 {
+   border: 2px solid green;
+   }
+}
+
+@media  ( 768px <= width){
+body {
+   background-color: aquamarine;
+   }
+   .banner1 {
+   border: 2px solid green;
+   }
+}
