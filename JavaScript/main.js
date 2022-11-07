@@ -1,13 +1,18 @@
-//Function Expressions
-// var calculateString;
-// calculateString = function (X) {
-//     console.log('Hi my name is Alam' + x)
+
+// let a = 1;
+// if (a > 10) {
+//     console.log(10);
 // }
-// console.log(calculateString)
+// else {
+//     console.log(a);
+// }
 
-//SCOPES
-
-var x = "Noor Alam";
-function name() {
-    console.log(x)
-}
+let a = 4;
+let b = 1;
+let c = 0;
+if (a == b)
+    console.log(a)
+else if (a == c)
+    console.log(a);
+else
+    console.log(c)
