@@ -1,0 +1,38 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header {
+    width: 100%;
+    text-align: center;
+}
+
+section.container {
+    padding: 15px;
+    border: 1px solid;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search-input {
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.delete {
+    cursor: pointer;
+}
